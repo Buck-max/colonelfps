@@ -1,0 +1,28 @@
+body {
+background: #0d0d0d;
+color: white;
+font-family: system-ui;
+}
+
+.container {
+max-width: 600px;
+margin: auto;
+padding: 2rem;
+}
+
+input, textarea {
+width: 100%;
+margin-top: 1rem;
+padding: 0.5rem;
+background: #1a1a1a;
+border: none;
+color: white;
+}
+
+button {
+margin-top: 1rem;
+padding: 0.6rem 1rem;
+background: #00ff99;
+border: none;
+cursor: pointer;
+}
