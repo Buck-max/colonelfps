@@ -1,3 +1,21 @@
+/* =========================
+   PASSWORD PROTECTION
+========================= */
+
+const ADMIN_PASSWORD = "colonel"; // change this
+
+function login() {
+  const entered = document.getElementById("password").value;
+
+  if (entered === ADMIN_PASSWORD) {
+    document.getElementById("loginBox").style.display = "none";
+    document.getElementById("dashboard").style.display = "block";
+  } else {
+    alert("Wrong password");
+  }
+}
+
+
 const GITHUB_TOKEN = "";
 const REPO_OWNER = "Buck-max";
 const REPO_NAME = "colonelfps";
