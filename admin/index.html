@@ -10,17 +10,29 @@
 
 <div class="container">
 
-<h1>Admin Dashboard</h1>
+<h1>ColonelFPS Admin</h1>
 
-<input id="title" placeholder="Video Title">
-<input id="shorts" placeholder="YouTube Shorts Link">
-<textarea id="summary" placeholder="Summary"></textarea>
+<!-- LOGIN -->
+<div id="loginBox">
+  <input type="password" id="password" placeholder="Enter password">
+  <button onclick="login()">Enter</button>
+</div>
 
-<button onclick="addVideo()">Add Video</button>
+<!-- DASHBOARD -->
+<div id="dashboard" style="display:none;">
+
+  <h2>Add Video</h2>
+
+  <input id="title" placeholder="Video Title">
+  <input id="shorts" placeholder="YouTube Shorts Link">
+  <textarea id="summary" placeholder="Summary"></textarea>
+
+  <button onclick="addVideo()">Add Video</button>
+
+</div>
 
 </div>
 
 <script src="admin.js"></script>
-
 </body>
 </html>
